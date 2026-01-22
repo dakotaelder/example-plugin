@@ -9,7 +9,7 @@ import java.util.List;
 
 public class NpcLoaderFullOsrs {
     // [SETTINGS] Path to your custom JSON
-    private static final String PATH = "C:\\Users\\dakot\\Desktop\\runescapeserverdata\\data\\npc\\fullOsrs.json";
+    private static final String PATH = "\data\\npc\\fullOsrs.json";
 
     public static List<NpcDefFullOsrs> load() {
         File file = new File(PATH);
