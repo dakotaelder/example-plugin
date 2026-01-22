@@ -91,7 +91,7 @@ public class ExamplePlugin extends Plugin
     private int npcMode = 0; 
     private final Set<NPC> finishedNpcs = new HashSet<>();
    // private final File npcDir = new File("C:\\Users\\dakot\\Desktop\\runescapeserverdata\\data\\OSRS_DUMPS\\NpcDialogues\\npcs");
-    private final File npcDir = new File("C:\\Users\\dakot\\Server_Workspace\\RuneScape_Server\\data\\dialogues\\npcs");
+    private final File npcDir = new File("\data\\dialogues\\npcs");
     private Map<Integer, Integer> inventorySnapshot = new HashMap<>();
     private ExamplePanel panel;
     private NavigationButton navButton;
@@ -104,7 +104,7 @@ public class ExamplePlugin extends Plugin
     private int lastClickedIndex = 0;
     private boolean pendingLink = false;
     private boolean showReleaseDates = false;
-    private final File questMemoryFile = new File("C:\\Users\\dakot\\Server_Workspace\\RuneScape_Server\\data\\dialogues\\quest_memory.json");
+    private final File questMemoryFile = new File("\data\\dialogues\\quest_memory.json");
     private final List<QuestMemoryEntry> questMemory = new ArrayList<>();
     private boolean workingOnQuest = false;
     private int workingQuestId = -1;
