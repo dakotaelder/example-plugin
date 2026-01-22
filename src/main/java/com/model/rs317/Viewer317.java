@@ -19,7 +19,7 @@ import java.util.zip.GZIPInputStream;
 
 public class Viewer317 extends JFrame {
 
-    private static final String CACHE_PATH = "C:\\Users\\dakot\\Server_Workspace\\RuneScape_Server\\data\\cache_372\\";
+    private static final String CACHE_PATH = "\data\\cache_372\\";
 
     private RS317Decompressor configDecompressor;
     private RS317Decompressor modelDecompressor;
