@@ -16,7 +16,7 @@ public class RealCacheLoader {
     private static final Logger logger = Logger.getLogger(RealCacheLoader.class.getName());
 
     // PATH verified from your screenshot:
-    private static final String CACHE_PATH = "C:\\Users\\dakot\\Server_Workspace\\RuneScape_Server\\data\\cache_459\\.jagex_cache_32\\runescape\\";
+    private static final String CACHE_PATH = "\cache_459\\.jagex_cache_32\\runescape\\";
 
     // 459 Constants
     private static final int CONFIG_INDEX = 2;   // The Index for Configs (Items, NPCs, Objects)
