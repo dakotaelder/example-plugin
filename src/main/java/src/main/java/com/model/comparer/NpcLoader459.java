@@ -8,7 +8,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class NpcLoader459 {
-    private static final String PATH = "C:\\Users\\dakot\\Desktop\\runescapeserverdata\\data\\cache_459\\npc_dump.json";
+    private static final String PATH = "\data\\cache_459\\npc_dump.json";
 
     public static List<NpcDef459> load() {
         File file = new File(PATH);
