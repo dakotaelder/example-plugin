@@ -90,7 +90,7 @@ public class ExamplePlugin extends Plugin
     private final Set<Integer> requestedNpcs = new HashSet<>(); // To prevent spamming API
     private int npcMode = 0; 
     private final Set<NPC> finishedNpcs = new HashSet<>();
-   // private final File npcDir = new File("C:\\Users\\dakot\\Desktop\\runescapeserverdata\\data\\OSRS_DUMPS\\NpcDialogues\\npcs");
+   // private final File npcDir = new File("\data\\OSRS_DUMPS\\NpcDialogues\\npcs");
     private final File npcDir = new File("\data\\dialogues\\npcs");
     private Map<Integer, Integer> inventorySnapshot = new HashMap<>();
     private ExamplePanel panel;
