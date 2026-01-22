@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 public class NpcComparerGUI extends JFrame {
 
     private final ExamplePlugin plugin;
-    private final File saveFile = new File("C:\\Users\\dakot\\Server_Workspace\\RuneScape_Server\\data\\dialogues\\npc_mappings.json");
+    private final File saveFile = new File("\data\\dialogues\\npc_mappings.json");
     
     // UI Components
     private JPanel mainContainer;
